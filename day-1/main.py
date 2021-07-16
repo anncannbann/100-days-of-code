@@ -22,4 +22,21 @@ print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 '''
 
-#input
+#input function
+# x = input('Enter yoor name ')
+# print('Hello '+ x)
+
+#length
+#print(len(input('Enter your name :')))
+
+# #swap
+# a = 3
+# b = 5
+# temp =a
+# a = b
+# b = temp
+# print("a is :" ,a ,"\n b is :", b)
+
+
+#band name generator
+
