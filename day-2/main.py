@@ -79,5 +79,20 @@ winning = True
 print(f'Your score is : {score} and height is {height} and you won {winning}')
 '''
 
-
+'''
 #Coding Challenge = Life in Weeks.
+# Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
+
+# It will take your current age as the input and output a message with our time left in this format:
+
+# You have x days, y weeks, and z months left.
+
+# Where x, y and z are replaced with the actual calculated numbers.
+
+age = int(input('Enter your Age :'))
+expected_age = 90
+days = (expected_age - age) *365
+weeks = (expected_age - age) *52
+months = (expected_age - age) *12
+print(f'You have {days} days , {weeks} weeks and {months} months')
+'''
