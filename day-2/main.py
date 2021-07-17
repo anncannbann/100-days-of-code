@@ -35,9 +35,20 @@ print(type(x))
 
 '''
 
+'''
 # Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
 
 x = input("Type a Two Digit Number: ")
 print(type(x))
 print(int(x[0])+ int(x[1]))
 
+
+#MATHEMATICAL OPERATIONS
+
+print(type(6/3))
+print(type(6**4))
+
+print(3*3+3/3-3)
+
+'''
+#BMI CALCULATOR
