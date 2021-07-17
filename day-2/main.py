@@ -1,9 +1,6 @@
-#Data types
-
+#----------------Data types-------------
+'''
 #subscripting.....
-from typing_extensions import TypeVarTuple
-
-
 print("Hello"[4])
 
 #int
@@ -19,3 +16,20 @@ print(123_234_234)
 #Boolean
 True
 False
+
+'''
+
+
+# Type-Check, Type -Errors and Type Conversion
+
+n= len(input('Whats is your name?'))
+#print('Your name has ' + n+ 'letters lol')
+print('Your name has ' + str(n)+ 'letters lol')
+
+#how to see type
+print(type(n))
+
+#type conversion / type casting.
+x = str(n)
+print(type(x))
+
