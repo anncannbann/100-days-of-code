@@ -51,6 +51,8 @@ print(type(6**4))
 print(3*3+3/3-3)
 
 '''
+
+'''
 #BMI CALCULATOR
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
@@ -61,3 +63,21 @@ w1 = float(weight)
 
 bmi = w1 / (h1 **2)
 print(int(bmi))
+'''
+
+#Number Manipulation
+
+
+# print(round(8/3,9))
+# print(8/3)
+
+'''
+score = 0
+height = 1.8
+winning = True
+#f-string
+print(f'Your score is : {score} and height is {height} and you won {winning}')
+'''
+
+
+#Coding Challenge = Life in Weeks.
