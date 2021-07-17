@@ -52,3 +52,12 @@ print(3*3+3/3-3)
 
 '''
 #BMI CALCULATOR
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+
+h1 = float(height)
+w1 = float(weight)
+
+bmi = w1 / (h1 **2)
+print(int(bmi))
