@@ -99,7 +99,7 @@ print(f'You have {days} days , {weeks} weeks and {months} months')
 '''
 
 
-
+'''
 #Bill Calculator
 #If the bill was $150.00, split between 5 people, with 12% tip. 
 #Each person should pay (150.00 / 5) * 1.12 = 33.6
@@ -115,3 +115,4 @@ t_format = "{:.2f}".format(total)
 # print(f'Each person has to pay {round(total,2)}')
 print(f'Each person has to pay {t_format}')
 
+'''
