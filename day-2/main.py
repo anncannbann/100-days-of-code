@@ -27,7 +27,8 @@ n= len(input('Whats is your name?'))
 print('Your name has ' + str(n)+ 'letters lol')
 
 #how to see type
-print(type(n))
+print(type(n
+))
 
 #type conversion / type casting.
 x = str(n)
@@ -96,3 +97,21 @@ weeks = (expected_age - age) *52
 months = (expected_age - age) *12
 print(f'You have {days} days , {weeks} weeks and {months} months')
 '''
+
+
+
+#Bill Calculator
+#If the bill was $150.00, split between 5 people, with 12% tip. 
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+print('Welcome to the Bill Calculator!!')
+bill = float(input("Enter your Bill Amount :"))
+n = int(input('Enter the Number of People:'))
+tip = int(input('Enter the tip amount 10 or 12 or 15'))
+
+total = (bill * (tip /100) + bill ) / n
+t_format = "{:.2f}".format(total)
+# print(f'Each person has to pay {round(total,2)}')
+print(f'Each person has to pay {t_format}')
+
