@@ -19,7 +19,7 @@ False
 
 '''
 
-
+'''
 # Type-Check, Type -Errors and Type Conversion
 
 n= len(input('Whats is your name?'))
@@ -32,4 +32,12 @@ print(type(n))
 #type conversion / type casting.
 x = str(n)
 print(type(x))
+
+'''
+
+# Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
+
+x = input("Type a Two Digit Number: ")
+print(type(x))
+print(int(x[0])+ int(x[1]))
 
