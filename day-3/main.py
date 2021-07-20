@@ -32,8 +32,11 @@ elif(bmi > 30 and bmi <35):
 else:
       print(f'Your BMI is {bmi}, you are Clinically Obese.')
     '''
-'''
+
+
+
 #leap year
+'''
 year = int(input('Enter a Year to Check:'))
 if year % 4 == 0:
     if year % 100 ==0:
@@ -48,8 +51,9 @@ else:
 '''
 
 
-'''
+
 #Rolercoaster ticket counter
+'''
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
@@ -76,6 +80,8 @@ else:
     print('Sorry you tiny, cant ride')
 '''
 
+
+'''
 #pizza ordering
 print('Welcome to Python Pizza 🍕 ')
 print('********MENU********** \n Small Pizza: $15 \n Medium Pizza: $20 \n Large Pizza: $25 \n Pepperoni for Small Pizza: +$2 \n Pepperoni for Medium or Large Pizza: +$3 \n Extra cheese for any size pizza: + $1 \n')
@@ -106,3 +112,32 @@ print(f'Your Bill is ${bill}')
 
 
 
+'''
+
+#Love Calculator
+
+'''
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n").lower()
+name2 = input("What is their name? \n").lower()
+
+t = name1.count('t') + name2.count('t')
+r = name1.count('r') + name2.count('r')
+u = name1.count('u') +name2.count('u')
+e = name1.count('e')+ name2.count('e')
+
+l = name1.count('l') + name2.count('l')
+o = name1.count('o') + name2.count('o')
+v = name1.count('v') + name2.count('v')
+
+
+true = t+r+u+e
+love = l+o+v+e
+score = int(str(true)+str(love))
+if score < 10 or score >90:
+    print(f'Your score is {score}, you go together like coke and mentos')
+elif score > 40 and score <50:
+    print(f'Your score is {score}, you are alright together.') 
+else:
+    print(f'Your score is {score}.')
+'''
