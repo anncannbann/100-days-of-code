@@ -52,3 +52,14 @@ else:
     '''
 
 #leap year
+year = int(input('Enter a Year to Check:'))
+if year % 4 == 0:
+    if year % 100 ==0:
+        if year % 400 ==0:
+            print('It is a Leap Year!')
+        else:
+            print('It is NOT a leap Year')
+    else:
+        print('It is A Leap Year')
+else:
+    print('It is NOT a Leap Year')
