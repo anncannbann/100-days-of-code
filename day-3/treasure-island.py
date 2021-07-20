@@ -48,3 +48,4 @@ if(m1 =='left'):
 else:
     print('Fall into a hole.GAME OVERRRRR')
 
+
