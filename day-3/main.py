@@ -8,25 +8,7 @@ else:
     print('Number is Odd.')
 '''
 
-#Rolercoaster ticket counter
-'''
-print("Welcome to the rollercoaster!")
-height = int(input("What is your height in cm? "))
 
-
-if height> 120:
-    print('You are eligble for riding')
-    age = int(input("Enter your Age to Continue"))
-    if age >= 18:
-        print(' Your total is $12')
-    elif age >=12 and age< 18:
-        print('Your total is $7')
-    else:
-        print('Your total is $5')
-else:
-    print('Sorry you tiny, cant ride')
-
-'''
 
 #BMI 2.0
 '''
@@ -50,7 +32,7 @@ elif(bmi > 30 and bmi <35):
 else:
       print(f'Your BMI is {bmi}, you are Clinically Obese.')
     '''
-
+'''
 #leap year
 year = int(input('Enter a Year to Check:'))
 if year % 4 == 0:
@@ -63,3 +45,33 @@ if year % 4 == 0:
         print('It is A Leap Year')
 else:
     print('It is NOT a Leap Year')
+'''
+
+
+'''
+#Rolercoaster ticket counter
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+bill =0
+if height> 120:
+    print('You are eligble for riding')
+    age = int(input("Enter your Age to Continue"))
+    if age >= 18:
+        bill =12
+        print(' Your ticket is $12')
+    elif age >=12:
+        bill =7
+        print('Your ticket is $7')
+    else:
+        bill = 5
+        print('Your ticket is $5')
+    
+    pix = input('Would you Like a Ticket? Y/N').lower()
+    if(pix =='y'):
+        bill+=3
+    
+    print(f'your Total is ${bill}')
+else:
+    print('Sorry you tiny, cant ride')
+'''
