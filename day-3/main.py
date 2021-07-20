@@ -8,3 +8,9 @@
 #     print('Sorry you tiny, cant ride')
 
     
+# odd-even
+n = int(input('Enter a number'))
+if(n %2==0):
+    print('number is Even.')
+else:
+    print('Number is Odd.')
