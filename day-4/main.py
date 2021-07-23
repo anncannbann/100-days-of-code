@@ -53,7 +53,7 @@ print(f'{x} will be paying the bill today!')
 '''
 
 #Treasure Map
-
+'''
 row1 = ["⬜️","⬜️","⬜️"]
 row2 = ["⬜️","⬜️","⬜️"]
 row3 = ["⬜️","⬜️","⬜️"]
@@ -71,3 +71,6 @@ print(row,column)
 map[row][column] ="🟥"
 
 print(f"{row1}\n{row2}\n{row3}")
+
+'''
+
