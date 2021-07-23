@@ -27,3 +27,15 @@ else:
 '''
 
 #lists
+'''
+lst1 = ['a','b','c']
+
+lst2 =['d','e']
+
+#lst1.extend(lst2)
+lst1.extend(['c','d'])
+print(lst1)
+
+'''
+
+#Banker ROulette
