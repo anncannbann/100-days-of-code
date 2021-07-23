@@ -14,12 +14,16 @@ xy = random.random()*5
 print(xy)
 
 '''
+
 #heads or tails
 
+'''
 toss = random.randint(0,1)
 
 if(toss ==1):
     print('Heads')
 else:
     print('Tails')
-    
+'''
+
+#lists
