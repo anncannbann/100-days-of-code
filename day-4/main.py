@@ -39,3 +39,12 @@ print(lst1)
 '''
 
 #Banker ROulette
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+
+# print(names)
+
+#x = names[random.randint(0,len(names)-1)]
+
+x = random.choice(names)
+print(f'{x} will be paying the bill today!')
