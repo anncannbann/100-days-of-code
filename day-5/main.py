@@ -40,3 +40,13 @@ for i in range(1,101):
   x+=i
 print(x)
 '''
+
+
+#sum of even numbers
+'''
+sum1 = 0
+for i in range(1,101):
+  if(i%2==0):
+    sum1+=i
+print(f'Sum is {sum1}')
+'''
