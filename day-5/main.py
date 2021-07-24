@@ -18,3 +18,18 @@ for i in range(0,len(student_heights)):
 avg = round(total/no)
 print(f'Avg height is {avg}')
 '''
+
+#max value without max()
+'''
+student_scores = input("Input a list of student scores ").split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+print(student_scores)
+
+maximum = 0
+for scores in student_scores:
+  if(scores > maximum):
+    maximum = scores
+
+print(maximum)
+'''
