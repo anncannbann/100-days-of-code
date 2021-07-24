@@ -4,7 +4,7 @@ fruits= ['apple','orange','banana']
 for fruit in fruits:
     print(fruit)
 '''
-
+'''
 student_heights = input("Input a list of student heights ").split()
 for n in range(0, len(student_heights)):
   student_heights[n] = int(student_heights[n])
@@ -17,3 +17,4 @@ for i in range(0,len(student_heights)):
     no +=1
 avg = round(total/no)
 print(f'Avg height is {avg}')
+'''
