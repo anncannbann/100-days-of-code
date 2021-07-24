@@ -37,3 +37,4 @@ print(f'Your Easy  Password is {password}')
 new_p = random.sample(password , len(password))
 new_password = ''.join(new_p)
 print(f'Your Hard  Password is {new_password}')
+
