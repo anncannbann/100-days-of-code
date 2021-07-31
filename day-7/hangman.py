@@ -1,4 +1,5 @@
 #Step 5
+
 import random
 #TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
 import hangman_words as words
@@ -29,7 +30,7 @@ while not end_of_game:
     letters.append(guess)
     if guess in letters:
         print(f"You already guessed {guess}")
-        
+
     #Check guessed letter
     for position in range(word_length):
         letter = chosen_word[position]
