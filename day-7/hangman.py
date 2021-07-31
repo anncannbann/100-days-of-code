@@ -47,3 +47,25 @@ for position in range(0,len(chosen_word)):
 print(display)
 '''
 #step 3
+import random
+word_list = ["aardvark", "baboon", "camel"]
+chosen_word = random.choice(word_list)
+
+#Testing code
+print(f'Pssst, the solution is {chosen_word}.')
+
+display =[]
+
+for i in range(0,len(chosen_word)):
+    display.append('_')
+gameend = False
+while not gameend: 
+    guess = input("Guess a letter: ").lower()
+    for position in range(0,len(chosen_word)):
+        if (guess == chosen_word[position]):
+            display[position] = guess
+
+    print(display)
+    if "_" not in display:
+        gameend = True
+        print("YOU WON!!!!🏆")
