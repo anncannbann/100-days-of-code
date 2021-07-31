@@ -25,7 +25,7 @@
 
 #Step 2
 
-
+'''
 import random
 word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
@@ -45,3 +45,5 @@ for position in range(0,len(chosen_word)):
         display[position] = guess
 
 print(display)
+'''
+#step 3
